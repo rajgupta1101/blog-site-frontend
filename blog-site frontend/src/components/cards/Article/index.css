@@ -1,0 +1,71 @@
+.article-card {
+  width: 420px;
+  height: auto;
+  margin-bottom: 40px;
+}
+.article-card-img {
+  width: 100%;
+  height: 240px;
+}
+.article-card-read-time {
+  background-color: #f9f5ff;
+  width: fit-content;
+  display: flex;
+  color: #6941c6;
+  margin: 16px 0;
+  border-radius: 50px;
+  padding: 4px;
+  padding-right: 16px;
+  gap: 8px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+.article-card-read-time > :first-child {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.article-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.article-card-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+  max-height: 44px;
+  overflow: hidden;
+}
+.article-card-user {
+  display: flex;
+  height: 40px;
+  padding: 20px 0;
+  gap: 12px;
+}
+
+.article-card-user > :first-child {
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.article-card-user > :last-child > :first-child {
+  font-weight: 600;
+  font-size: 14px;
+  color: #101828;
+  margin-top: 4px;
+}
+.article-card-user > :last-child > :last-child {
+  font-size: 14px;
+  line-height: 20px;
+  color: #475467;
+}
+
+/* @media screen and (max-width: 954px) {
+  .article-card {
+  }
+} */

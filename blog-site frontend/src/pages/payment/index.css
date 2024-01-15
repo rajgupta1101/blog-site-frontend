@@ -1,0 +1,79 @@
+.pricing-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.plan {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+  max-width: 350px;
+  width: 300px;
+}
+
+.plan:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.basic {
+  background-color: #f9fafb;
+}
+
+.standard {
+  background-color: #f9fafb;
+}
+
+.premium {
+  background-color: #f9fafb;
+}
+
+.plan h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.btn-select {
+  background-color: #7f56d9;
+  color: #fff;
+  padding: 10px 110px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: auto;
+  font-weight: 600;
+}
+
+.btn-select:hover {
+  background-color: #0069d9;
+  transform: translateY(-2px);
+}

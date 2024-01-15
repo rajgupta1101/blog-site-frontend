@@ -1,0 +1,19 @@
+.article-list {
+  width: calc(100% - 300px);
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* gap: 40px; */
+}
+
+@media screen and (max-width: 954px) {
+  .article-list {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hamberger-menu {
+    display: block;
+  }
+}

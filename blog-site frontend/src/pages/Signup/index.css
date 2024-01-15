@@ -1,0 +1,171 @@
+/* .signupheading {
+  width: 360px;
+  height: 38px;
+}
+.formconatiner {
+  display: flex;
+  flex-direction: column;
+} */
+.signupformcontainer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 0px;
+}
+.signupformcontainer > * {
+  width: 50%;
+  display: flex;
+  /* background-color: red; */
+  /* margin: 10px; */
+}
+.iphoneimg {
+  width: 80%;
+  padding: 120px 0px 40px 187px;
+}
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_inside_container {
+  margin-top: 120px;
+}
+
+.item {
+  width: 47px;
+  height: 20px;
+
+  /* Text sm/Medium */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 6px;
+  margin-top: 20px;
+}
+.signupheading {
+  width: 360px;
+  height: 38px;
+
+  /* Display sm/Semibold */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+}
+.get_started_btn {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 18px;
+  gap: 8px;
+
+  width: 360px;
+  height: 44px;
+
+  /* Primary/600 */
+
+  background: #7f56d9;
+  /* Primary/600 */
+
+  border: 1px solid #7f56d9;
+  /* Shadow/xs */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.text_container {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+
+  width: 360px;
+  height: 44px;
+
+  /* Base/White */
+
+  background: #ffffff;
+  /* Gray/300 */
+
+  border: 1px solid #d0d5dd;
+  /* Shadow/xs */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.p_container {
+  width: 360px;
+  height: 24px;
+
+  /* Text md/Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.r_container {
+  width: 360px;
+  height: 20px;
+
+  /* Text sm/Regular */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.login_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Primary/700 */
+
+  color: #6941c6;
+  text-decoration: none;
+}
+.already_container {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* Gray/600 */
+
+  color: #475467;
+  padding-left: 72px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 954px) {
+  .signupformcontainer > :last-child {
+    display: none;
+  }
+  .form_inside_container {
+    margin-top: 80px;
+  }
+}

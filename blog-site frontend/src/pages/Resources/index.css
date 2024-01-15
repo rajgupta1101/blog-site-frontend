@@ -1,0 +1,64 @@
+.resources {
+  padding: 0 112px;
+}
+
+.resources-heading {
+  padding: 96px 0;
+}
+.resources-heading .first {
+  font-weight: 600;
+  color: #7f56d9;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.resources-heading .second {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.resources-heading .third {
+  font-weight: 400;
+  font-size: 20px;
+  color: #475467;
+}
+.resources-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.resources-pagination {
+  width: 100%;
+  margin-top: 64px;
+  padding: 20px 0;
+  border-top: 1px solid #eaecf0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resources-pagination button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #344054;
+  border-radius: 8px;
+  padding: 8px 14px;
+  background-color: white;
+  border: 1px solid #d0d5dd;
+  cursor: pointer;
+}
+
+.resources-pagination-center .not-selected {
+  border: 1px solid white;
+}
+.resources-pagination-center .selected {
+  background-color: #f9fafb;
+  color: #1d2939;
+}
+
+@media screen and (max-width: 954px) {
+  .resources {
+    padding: 0 32px;
+  }
+  .resources-list {
+    display: block;
+  }
+}
